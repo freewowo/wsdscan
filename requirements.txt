@@ -1,0 +1,9 @@
+# WSD Scan 依赖
+#
+# 只有 Pillow 是第三方依赖，且是可选的：
+#   不装也能扫（只能存 BMP），装了才能转 PDF/JPG/PNG、才能用多页/纠偏/裁剪。
+#
+# tkinter 是 Python 自带，Windows / macOS 官方安装包默认包含；
+# Debian/Ubuntu 若缺失：sudo apt install python3-tk
+
+pillow>=9.0

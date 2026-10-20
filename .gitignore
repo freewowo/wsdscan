@@ -1,0 +1,22 @@
+# 打包产物
+build/
+dist/
+*.spec
+__pycache__/
+*.py[cod]
+
+# 本地配置（保存了最近用过的 IP 等）
+*.json.bak
+
+# 工作区辅助数据（含内网拓扑信息，不入库）
+.workbuddy-ai/
+
+# 系统
+Thumbs.db
+desktop.ini
+
+# 临时文件
+_*.png
+_*.txt
+_*.py
+*.tmp
